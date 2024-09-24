@@ -1,0 +1,142 @@
+.skills {
+    margin:40px auto;
+    width: 80%;
+    padding-bottom: 40px;
+  }
+  
+  @keyframes load {
+    from {
+        width: 0%
+    }
+  }
+  
+  @-webkit-keyframes load {
+    from {
+        width: 0%
+    }
+  }
+  
+  @-moz-keyframes load {
+    from {
+        width: 0%
+    }
+  }
+  
+  @-o-keyframes load {
+    from {
+        width: 0%
+    }
+  }
+  
+  .bar {
+    background-color: #EEE;
+    width: 100;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bar::before {
+    content: attr(data-skill);
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius:20px;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  .bar.aos::before {
+    width: 99.2%;
+    background: #ff004c;
+  }
+  
+  .bar.c::before {
+    width: 80%;
+    background: #6200ff;
+  }
+  
+  .bar.cplus::before {
+    background: #0099ff;
+    width: 90%;
+  }
+  
+  .bar.python::before {
+    width: 60%;
+    background: #fbff00;
+  }
+  
+  .bar.java::before {
+    width:50%;
+    background: #ff0000;
+  }
+  
+  .bar.html::before {
+    width:99.2%;
+    background: #ff5100;
+  }
+  .bar.css::before {
+    width:90%;
+    background: #0044ff;
+  }
+  .bar.js::before {
+    width:75%;
+    background: #ffd900;
+  }
+  .bar.react::before {
+    width:30%;
+    background: #0077ff;
+  }
+  .bar.tailwind::before {
+    width:80%;
+    background: #365bd6;
+  }
+  .bar.sass::before {
+    width:60%;
+    background: pink;
+  }
+  .bar.node::before {
+    width:20%;
+    background: #00ff00;
+  }
+  .bar.postman::before {
+    background: #ff6600;
+    width:72%;
+  }
+  .bar.sql::before {
+    width:65%;
+    background: #d9ff00;
+  }
+  .bar.firebase::before {
+    width:50%;
+    background: #003f72;
+  }
+  .bar.github::before {
+    width:83%;
+    background: #ff00bf;
+  }
+  .bar.git::before {
+    width:78%;
+    background: #802400;
+  }
+  .bar.adobe::before {
+    width:68%;
+    background: #000;
+  }
+  .bar.canva::before {
+    width:88%;
+    background: #00ffd5;
+  }
+  @media only screen and (max-width:768px){
+    .bar.html::before {
+      width:97%;
+    }
+    .bar.aos::before {
+      width: 97%;
+    } 
+  }
+  

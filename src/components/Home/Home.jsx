@@ -4,7 +4,7 @@ import './Home.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {useEffect} from 'react'
-import cv from'./images/MyCV.pdf'
+import cv from'./images/cv.pdf'
 
 
 const Home = () => {
